@@ -3,5 +3,3 @@ module.exports = {
 };
 
 module.exports.gzip = {};
-
-// module.exports.featherProxy = {};
