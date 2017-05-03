@@ -1,5 +1,3 @@
-'use strict';
-
-module.exports = app => {
-  app.get('/', 'home.index');
+module.exports = (router, controller) => {
+  router.get('/', controller.home.index);
 };

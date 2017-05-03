@@ -1,8 +1,7 @@
-'use strict';
+const Flclover = require('flclover');
 
-// npm run dev DO NOT read this file
-
-require('egg').startCluster({
+const app = Flclover({
   baseDir: __dirname,
-  port: process.env.PORT || 7001, // default to 7001
 });
+app.proxy = true;
+app.listen(process.env.PORT || 7001);
