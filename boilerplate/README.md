@@ -6,21 +6,21 @@
 
 <!-- add docs here for user -->
 
-see [egg docs][egg] for more detail.
+see [flclover docs][flclover] for more detail.
 
 ### Development
 ```shell
-$ npm install
+$ npm i
 $ npm run dev
-$ open http://localhost:7001/news
+$ open http://localhost:7001/
 ```
 
 ### Deploy
 
-Use `EGG_SERVER_ENV=prod` to enable prod mode
+Use `FLC_SERVER_ENV=prod` to enable prod mode
 
 ```shell
-$ EGG_SERVER_ENV=prod npm start
+$ FLC_SERVER_ENV=prod npm start
 ```
 
 ### npm scripts
@@ -30,4 +30,4 @@ $ EGG_SERVER_ENV=prod npm start
 - Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
 
 
-[egg]: https://eggjs.org
+[flclover]: https://flcloverjs.org

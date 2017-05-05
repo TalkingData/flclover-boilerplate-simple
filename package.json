@@ -1,6 +1,6 @@
 {
   "name": "flclover-boilerplate-simple",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "boilerplate for flclover quickstart",
   "scripts": {
     "autod": "autod",
