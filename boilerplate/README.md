@@ -17,10 +17,8 @@ $ open http://localhost:7001/
 
 ### Deploy
 
-Use `FLC_SERVER_ENV=prod` to enable prod mode
-
 ```shell
-$ FLC_SERVER_ENV=prod npm start
+$ pm2 startOrRestart app.yaml
 ```
 
 ### npm scripts
