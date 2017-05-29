@@ -18,7 +18,7 @@ $ open http://localhost:7001/
 ### Deploy
 
 ```shell
-$ pm2 startOrRestart app.yaml
+$ pm2 startOrRestart app.yml
 ```
 
 ### npm scripts
