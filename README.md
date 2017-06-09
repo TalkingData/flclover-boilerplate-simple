@@ -1,6 +1,6 @@
 # egg-boilerplate-simple
 
-Boilerplate for egg quickstart. 
+Boilerplate for egg quickstart.
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -27,8 +27,8 @@ Boilerplate for egg quickstart.
 **Don't `npm install` this directly**
 
 ```shell
-$ npm install -g egg-init
-$ egg-init --type simple showcase
+$ npm install -g flclover-init
+$ flclover-init --type simple showcase
 $ cd showcase
 $ npm install
 $ npm run dev
