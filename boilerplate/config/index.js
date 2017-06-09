@@ -6,7 +6,7 @@ module.exports.gzip = {};
 
 // logger config
 module.exports.flcloverLogger = {
-  dir: '/tmp/flcloverdemo',
+  dir: '/tmp/{{name}}',
   appFileName: 'app',
   errorFileName: 'error',
 };
