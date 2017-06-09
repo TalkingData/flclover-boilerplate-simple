@@ -3,3 +3,10 @@ module.exports = {
 };
 
 module.exports.gzip = {};
+
+// logger config
+module.exports.flcloverLogger = {
+  dir: '/tmp/flcloverdemo',
+  appFileName: 'app',
+  errorFileName: 'error',
+};
