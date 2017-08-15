@@ -4,7 +4,7 @@
   "description": "{{description}}",
   "private": true,
   "dependencies": {
-    "flclover": "^0.7.9",
+    "flclover": "^0.7.13",
     "apischema": "0.0.28",
     "request": "^2.81.0"
   },
